@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <%= link_to @curriculum.video_url.to_s do %>
+  <%= video_tag(@curriculum.video.to_s) %>
+</p>
+
+<%= link_to 'Edit', edit_curriculum_path(@curriculum) %> |
+<%= link_to 'Back', curriculums_path %>

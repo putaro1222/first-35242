@@ -66,3 +66,11 @@ group :development, :test do
 end
 
 gem 'devise'
+
+gem 'active_hash'
+
+gem 'carrierwave'
+gem 'mini_magick'
+
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
